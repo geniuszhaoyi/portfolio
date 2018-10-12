@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import PageScroll from '../PageScroll'
-import firstImage from './first.jpg'
+import firstImage from './IMG_1143.jpg'
 import mainImage from './main.jpg'
 
 class Scroll extends Component {
@@ -23,7 +23,9 @@ class Scroll extends Component {
     }
     render() {
         return (<PageScroll {...this.state} firstPage={
-            < img src={firstImage} style={{ width: '100%' }} alt="First Page" />
+            <div style={{ textAlign: 'center', width: '100%', height: '100%' }} >
+                <img src={firstImage} style={{ maxWidth: '100%', maxHeight: '100%' }} alt="First Page" />
+            </div>
         }>
             <img src={mainImage} style={{ width: '100%' }} alt="Main Page" />
         </PageScroll >)
