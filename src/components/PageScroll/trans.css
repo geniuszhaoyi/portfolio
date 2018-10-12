@@ -1,0 +1,22 @@
+.transition-all-1s-linear {
+    transition: all 1s linear;
+    transition-property: all 1s linear;
+    /* Firefox 4 */
+    -moz-transition: all 1s linear;
+    /* Safari and Chrome */
+    -webkit-transition: all 1s linear;
+    /* Opera */
+    -o-transition: all 1s linear;
+}
+
+
+.transition-all-500ms-ease-in-out {
+    transition: all 500ms ease-in-out;
+    transition-property: all 500ms ease-in-out;
+    /* Firefox 4 */
+    -moz-transition: all 500ms ease-in-out;
+    /* Safari and Chrome */
+    -webkit-transition: all 500ms ease-in-out;
+    /* Opera */
+    -o-transition: all 500ms ease-in-out;
+}
