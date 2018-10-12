@@ -20,11 +20,11 @@
     "redux": "4.0.0",
     "redux-thunk": "2.3.0",
     "sanitize.css": "7.0.3",
-    "serve": "10.0.2"
+    "serve": "10.0.2",
+    "react-scripts": "2.0.4"
   },
   "devDependencies": {
-    "prettier": "1.14.3",
-    "react-scripts": "2.0.4"
+    "prettier": "1.14.3"
   },
   "browserslist": [
     ">0.2%",
