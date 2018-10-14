@@ -1,0 +1,36 @@
+.sayhello-text {
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em !important;
+}
+
+*:focus {
+    outline: none;
+}
+
+textarea.sayhello-text {
+    resize: none;
+}
+
+.sayhello-btn {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    padding: 5px 15px;
+    background: green;
+    color: white;
+}
+
+.sayhello-btn:hover, .sayhello-btn:focus {
+    background: green;
+}
+
+.sayhello-btn:active {
+    background: darkgreen;
+}
+
