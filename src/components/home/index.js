@@ -37,7 +37,7 @@ ImageWithLoading = connect()(ImageWithLoading);
 class Home extends React.Component {
     render() {
         return (<InitialLoadingContainer>
-            <div style={{ maxWidth: '1000px', minWidth: '600px', marginLeft: 'auto', marginRight: 'auto' }}>
+            <div className="MainPageContainer" style={{ maxWidth: '1000px', marginLeft: 'auto', marginRight: 'auto', overflowX: 'hidden' }}>
                 <div>
                     <CoverPage />
                 </div>

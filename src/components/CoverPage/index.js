@@ -11,15 +11,17 @@ class CoverPage extends React.Component {
     state = {
         width: 1000,
     }
-    myScript = (event) => {
+    onResize = () => {
         var width = this.containerRef.current.clientWidth;
         this.setState({ width })
     }
     componentDidMount() {
-        window.addEventListener("resize", this.myScript);
+        window.addEventListener("load", this.onResize);
+        window.addEventListener("resize", this.onResize);
     }
     componentWillUnmount() {
-        window.removeEventListener("resize", this.myScript);
+        window.removeEventListener("load", this.onResize);
+        window.removeEventListener("resize", this.onResize);
     }
     render() {
         return <div style={{ position: 'relative' }}>
