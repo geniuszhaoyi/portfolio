@@ -5,7 +5,7 @@ class Footer extends React.Component {
     render() {
         return (<div style={{ background: 'black', color: 'white', fontSize: '0.75em' }}>
             <div style={{ width: '33%', display: 'inline-block', textAlign: 'left' }}>
-                Copyright &copy; 2005 - 2015 {this.props.displayName}. {/* All Rights Reserved. */}
+                Copyright &copy; 2016 {this.props.displayName}. {/* All Rights Reserved. */}
             </div>
             <div style={{ width: '34%', display: 'inline-block', textAlign: 'center' }}>
                 <a style={{ color: 'white' }}
